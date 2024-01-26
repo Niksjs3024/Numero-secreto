@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: linear-gradient(rgb(32, 31, 31) 0%, #a73131 33.33%, #7a1c1c 66.67%, #0e0101 100%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 
 body::before {
     background-image: url("img/code.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-position: right;
     content: "";
     display: block;
@@ -33,7 +33,7 @@ body::before {
     align-items: center;
     justify-content: space-between;
     border-radius: 24px;
-    border: 1px solid #1875E8;
+    border: 1px solid black;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
@@ -125,9 +125,6 @@ button:disabled {
         font-size: 24px;
     }
 
-    .container__imagem-pessoa {
-        display: none;
-    }
 
     .container__conteudo {
         display: block;
